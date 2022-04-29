@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/POCCMakeExternalLibs/Server/build",
+  "command": "/usr/bin/c++  -I/usr/local/include/Poco -I/workspaces/POCCMakeExternalLibs/Server/Foundation/include -I/workspaces/POCCMakeExternalLibs/Server/../XMLSerializer/include -I/workspaces/POCCMakeExternalLibs/Server/include -I/workspaces/POCCMakeExternalLibs/Server/include/factory  -Wall -Wno-sign-compare -D_XOPEN_SOURCE=500 -D_REENTRANT -D_THREAD_SAFE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -DPOCO_HAVE_FD_EPOLL -DBOOST_LOG_DYN_LINK -g -g3 -gdwarf-2 -fPIE -o CMakeFiles/Server.dir/src/HelloRequestHandler.cpp.o -c /workspaces/POCCMakeExternalLibs/Server/src/HelloRequestHandler.cpp",
+  "file": "/workspaces/POCCMakeExternalLibs/Server/src/HelloRequestHandler.cpp"
+},
+{
+  "directory": "/workspaces/POCCMakeExternalLibs/Server/build",
+  "command": "/usr/bin/c++  -I/usr/local/include/Poco -I/workspaces/POCCMakeExternalLibs/Server/Foundation/include -I/workspaces/POCCMakeExternalLibs/Server/../XMLSerializer/include -I/workspaces/POCCMakeExternalLibs/Server/include -I/workspaces/POCCMakeExternalLibs/Server/include/factory  -Wall -Wno-sign-compare -D_XOPEN_SOURCE=500 -D_REENTRANT -D_THREAD_SAFE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -DPOCO_HAVE_FD_EPOLL -DBOOST_LOG_DYN_LINK -g -g3 -gdwarf-2 -fPIE -o CMakeFiles/Server.dir/src/WebServerApp.cpp.o -c /workspaces/POCCMakeExternalLibs/Server/src/WebServerApp.cpp",
+  "file": "/workspaces/POCCMakeExternalLibs/Server/src/WebServerApp.cpp"
+}
+]
