@@ -117,67 +117,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Server
-
-# Build rule for target.
-Server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Server
-.PHONY : Server
-
-# fast build rule for target.
-Server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
-.PHONY : Server/fast
-
-src/HelloRequestHandler.o: src/HelloRequestHandler.cpp.o
-.PHONY : src/HelloRequestHandler.o
-
-# target to build an object file
-src/HelloRequestHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/HelloRequestHandler.cpp.o
-.PHONY : src/HelloRequestHandler.cpp.o
-
-src/HelloRequestHandler.i: src/HelloRequestHandler.cpp.i
-.PHONY : src/HelloRequestHandler.i
-
-# target to preprocess a source file
-src/HelloRequestHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/HelloRequestHandler.cpp.i
-.PHONY : src/HelloRequestHandler.cpp.i
-
-src/HelloRequestHandler.s: src/HelloRequestHandler.cpp.s
-.PHONY : src/HelloRequestHandler.s
-
-# target to generate assembly for a file
-src/HelloRequestHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/HelloRequestHandler.cpp.s
-.PHONY : src/HelloRequestHandler.cpp.s
-
-src/WebServerApp.o: src/WebServerApp.cpp.o
-.PHONY : src/WebServerApp.o
-
-# target to build an object file
-src/WebServerApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/WebServerApp.cpp.o
-.PHONY : src/WebServerApp.cpp.o
-
-src/WebServerApp.i: src/WebServerApp.cpp.i
-.PHONY : src/WebServerApp.i
-
-# target to preprocess a source file
-src/WebServerApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/WebServerApp.cpp.i
-.PHONY : src/WebServerApp.cpp.i
-
-src/WebServerApp.s: src/WebServerApp.cpp.s
-.PHONY : src/WebServerApp.s
-
-# target to generate assembly for a file
-src/WebServerApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/WebServerApp.cpp.s
-.PHONY : src/WebServerApp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,13 +125,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Server"
-	@echo "... src/HelloRequestHandler.o"
-	@echo "... src/HelloRequestHandler.i"
-	@echo "... src/HelloRequestHandler.s"
-	@echo "... src/WebServerApp.o"
-	@echo "... src/WebServerApp.i"
-	@echo "... src/WebServerApp.s"
 .PHONY : help
 
 

@@ -7,31 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/usr/local/lib/cmake/Poco/PocoConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoFoundationConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoFoundationConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoFoundationTargets-relwithdebinfo.cmake"
-  "/usr/local/lib/cmake/Poco/PocoFoundationTargets.cmake"
-  "/usr/local/lib/cmake/Poco/PocoJSONConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoJSONConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoJSONTargets-relwithdebinfo.cmake"
-  "/usr/local/lib/cmake/Poco/PocoJSONTargets.cmake"
-  "/usr/local/lib/cmake/Poco/PocoNetConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoNetConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoNetTargets-relwithdebinfo.cmake"
-  "/usr/local/lib/cmake/Poco/PocoNetTargets.cmake"
-  "/usr/local/lib/cmake/Poco/PocoUtilConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoUtilConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoUtilTargets-relwithdebinfo.cmake"
-  "/usr/local/lib/cmake/Poco/PocoUtilTargets.cmake"
-  "/usr/local/lib/cmake/Poco/PocoXMLConfig.cmake"
-  "/usr/local/lib/cmake/Poco/PocoXMLConfigVersion.cmake"
-  "/usr/local/lib/cmake/Poco/PocoXMLTargets-relwithdebinfo.cmake"
-  "/usr/local/lib/cmake/Poco/PocoXMLTargets.cmake"
   "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
-  "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
   "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
   "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
   "/usr/local/lib64/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
@@ -64,5 +41,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Server.dir/DependInfo.cmake"
   )

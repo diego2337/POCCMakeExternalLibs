@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/workspaces/POCCMakeExternalLibs/build",
-  "command": "/usr/bin/c++ -DXMLSerializerLib_EXPORTS   -Wall -Wno-sign-compare -D_XOPEN_SOURCE=500 -D_REENTRANT -D_THREAD_SAFE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -DPOCO_HAVE_FD_EPOLL -DBOOST_LOG_DYN_LINK -g -g3 -gdwarf-2 -fPIC -o CMakeFiles/XMLSerializerLib.dir/src/HelloXML.cpp.o -c /workspaces/POCCMakeExternalLibs/XMLSerializer/src/HelloXML.cpp",
-  "file": "/workspaces/POCCMakeExternalLibs/XMLSerializer/src/HelloXML.cpp"
-}
-]

@@ -221,6 +221,9 @@ Server_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Server_SOURCE_DIR:STATIC=/workspaces/POCCMakeExternalLibs/Server
 
+//Path to a library.
+XMLSerializerLib:FILEPATH=XMLSerializerLib-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
