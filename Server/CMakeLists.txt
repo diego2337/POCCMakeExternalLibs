@@ -45,7 +45,7 @@ endforeach()
 find_library(XMLSerializerLib ${CMAKE_CURRENT_SOURCE_DIR}/../build/lib/)
 
 # Create executable
-add_executable(${THIS} ${SOURCES})
-target_include_directories(${THIS} PRIVATE ${INCLUDE_DIRS})
+# add_executable(${THIS} ${SOURCES})
+# target_include_directories(${THIS} PRIVATE ${INCLUDE_DIRS})
 
 # target_link_libraries(${THIS} XMLSerializerLib )
