@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wno-sign-compare -D_XOPEN_SOURCE=500 -D_REENTRANT -D_THREAD_SAFE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -DPOCO_HAVE_FD_EPOLL -DBOOST_LOG_DYN_LINK -g -g3 -gdwarf-2  -lz -shared -Wl,-soname,libXMLSerializerLibd.so -o lib/libXMLSerializerLibd.so CMakeFiles/XMLSerializerLib.dir/src/HelloXML.cpp.o 

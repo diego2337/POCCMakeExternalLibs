@@ -1,0 +1,3 @@
+/workspaces/POCCMakeExternalLibs/XMLSerializer/build/CMakeFiles/XMLSerializerLib.dir
+/workspaces/POCCMakeExternalLibs/XMLSerializer/build/CMakeFiles/edit_cache.dir
+/workspaces/POCCMakeExternalLibs/XMLSerializer/build/CMakeFiles/rebuild_cache.dir

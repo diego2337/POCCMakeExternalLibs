@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/.",
+    "cmake.configureSettings": {
+        "Poco_INCLUDE_DIRS": "/usr/local/include/Poco/",
+    }
+}
